@@ -1,1 +1,12 @@
+.row{
+    padding: 30px;
+    background-color: red;
+    margin-top: 50px;
+}
 
+.logo{
+    background-color: yellow;
+    width: 350px;
+    height: 100px;
+    margin: auto;
+}
