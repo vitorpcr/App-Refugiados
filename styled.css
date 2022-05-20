@@ -7,9 +7,26 @@
   body{
     overflow-x: hidden;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: linear-gradient(lightskyblue, rgb(0, 255, 149));
+   
     width: 100vw;
     height: 100vh;
+  }
+
+  .divisao{
+    display: flex;
+  }
+
+  .box-canto{
+    margin-left: 40px;
+    margin-top: 300px;
+    width: 1000px;
+    height: 200vh;
+    background-color: black;
+    border-radius: 30px;
+  }
+
+  .bloco-2{
+    margin-right: 30px;
   }
   
   .imagem-logo{
@@ -30,16 +47,7 @@
     height: 430px;
   }
   
-  
-  
-  
-  
-  
-  ::selection{
-    background-color: white;
-    color: brown;
-  }
-  
+   
   a{
     text-decoration: none;
   }
@@ -88,7 +96,7 @@
   .links{
     margin: auto;
     flex: 1;
-  
+    
     justify-content: space-between;
     
   }
@@ -132,16 +140,20 @@
 
 
   .texto, .texto-sobre{
+   
     padding-top: 10px;
   }
  
   
-  .toggle-btn:hover{
-    filter: brightness(100%);
-  }
+  
   
   header.scrolled{
-    background-color: rgb(0, 255, 149);
+    margin-top: 30px;
+    width: 1800px;
+    margin-left: 50px;
+    
+    border-radius: 50px;
+    background-color: rgb(177, 212, 241);
     box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
   }
   
@@ -156,9 +168,8 @@
     
     margin: auto;
     border-radius: 40px;
- 
     height: 100vh;
-    background-color: rgb(226, 235, 247);
+    background-image: linear-gradient(lightskyblue, rgb(0, 255, 149));
    
       
   }
@@ -166,8 +177,7 @@
   
   
   .inicio, .cards{
-   
-    width: 1400px;
+    width: 1300px;
   }
   
   
@@ -218,27 +228,27 @@
     overflow: hidden;
     position: absolute;
     top: 90%;
-    left: 50%;
+    left: 1200px;
     transform: translate(-50%, -50%);
   }
     
-    .navigation{
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-      transform: translate(-50%);
-      display: flex;
-    }
+  .navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+  }
     
-    .bar{
-      width: 70px;
-      height: 17px;
-      border: 2px solid #fff;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: 0.5s;
-      margin: 8px;
-    }
+  .bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 8px;
+  }
     
     .bar:hover{
       background-color: #fff;
@@ -288,3 +298,47 @@
       margin-left: -80%;
       
   }
+
+  .inicio2{
+    background-color: green;
+    margin: auto;
+    width: 73%;
+    border-radius: 30px;
+    height: 540px;
+    display: flex;
+  }
+
+  .content2{
+    background-color: red;
+    width: 50%;
+    height: 300px;
+    padding-left: 50px;
+    margin: auto;
+    border-radius: 30px;
+    
+  }
+
+  .content2, .inicio2{
+    margin-top: 100px;
+    
+    
+  }
+
+  .texto2{
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    background-color: blue;
+    border-radius: 30px;
+  }
+
+  .box{
+    display: flex;
+    height: 300px;
+    background-color: wheat;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+  }
+
+  
