@@ -7,7 +7,7 @@
   body{
     overflow-x: hidden;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: yellowgreen;
+  
     width: 100vw;
     height: 100vh;
   }
@@ -32,21 +32,24 @@
   }
   
   .imagem-logo{
- 
-    width: 300px;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
     display: flex;
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+
+    
   }
   
   .imagem-logo img{
-    margin-top: 40px;
-    padding-bottom: 80px;
-    max-width: 450px;
-    width: 500px;
-    min-width: 430px;
-    height: 430px;
+    margin: auto;
+    border-radius: 50%;
+    height: 150px;
+    min-width: 200px;
+ 
+   
+    width: 200px;
+    
+ 
   }
   
    
@@ -69,19 +72,22 @@
   }
   
   .container{
+    
     position: relative;
+    display: flex;
     width: 100%;
-    max-width: 75rem;
+   
     padding: 0 1.5rem;
-    margin: 0 auto;
+    
+    margin: auto;
   }
   
   nav.container{
     
-  
+    
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+   
+  
   }
   
   .logo{
@@ -151,11 +157,11 @@
   
 header.scrolled{
   margin-top: 30px;
-  width: 1800px;
+  width: 1550px;
   margin-left: 50px;
   
   border-radius: 50px;
-  background-color: rgb(213, 219, 223);
+  background-color:beige;
   box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
 }
   
@@ -179,7 +185,7 @@ header.scrolled .logo{
   
   
 .inicio, .cards{
-  width: 1300px;
+  width: 1200px;
 }
   
   
@@ -230,7 +236,7 @@ header.scrolled .logo{
   overflow: hidden;
   position: absolute;
   top: 90%;
-  left: 1200px;
+  left: 63%;
   transform: translate(-50%, -50%);
 }
     
@@ -391,24 +397,42 @@ header.scrolled .logo{
   
 }
 
-@media (max-width: 900px){
-    .divisao{
-      display: flex;
-      margin: auto;
-      
-      
+@media (max-width: 1400px){
+    .body{
+      overflow-X: hidden;
+      background-color: red;
     }
+    
+    .imagem-logo img{
+      background-color: red;
+      margin-right: 450px;
+    }
+ 
 
     .box-canto{
-      min-width: 200px;
+     
+      min-width: 350px;
+      background-color: black;
     }
 
-    .inicio{
+    .bloco-2{
       max-width: 1000px;
     }
 
-    .container{
+    .inicio{
+      
       max-width: 900px;
+    }
+    .texto{
+      
+      width: 700px;
+      height: 200px;
+      font-size: 15px;
+     
+    }
+  
+    .container{
+      max-width: 600px;
       
     }
 
@@ -419,13 +443,16 @@ header.scrolled .logo{
 
     .content{
       max-width: 700px;
-      left: 63%;
+      left: 67%;
       margin: auto;
     }
 
     .content2{
       background-color: red;
-       max-width: 400px;
+       max-width: 700px;
     }
+
+    
+  
 }
 
