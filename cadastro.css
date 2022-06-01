@@ -1,0 +1,108 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body{
+ 
+    background: linear-gradient(68.15deg, wheat 16.62%, #cf4222 85.61%) no-repeat;
+    animation: gradient 10s ease infinite;
+    display: flex;
+    background-size: 300% 300%;
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0 50% ;
+    }
+    50%{
+        background-position: 100% 50% ;
+    }
+    100%{
+        background-position: 0 50% ;
+    }
+}
+
+.usuario{
+    
+    margin: auto;
+    
+}
+
+.menu{
+   
+    margin-top: 10px;
+    background-color: wheat;
+    width: 770px;
+      
+    height: 530px ;
+    padding: 50px;
+    border-radius: 20px;
+}
+  
+  
+  
+.titulo h1{
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+      
+}
+  
+.form{
+    
+    margin: 17px;
+     
+ }
+  
+  .form input{
+   
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    width: 300px;
+    align-items: center;
+  }
+  
+  label{
+      font-size: 15px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 500;
+  }
+  
+  .botao{
+      margin-top: 20px;
+      padding-top:10px;
+      text-align: center;
+      
+      
+  }
+  
+  .botao input{
+      border-radius: 10px;
+      padding: 10px 30px;
+      font-size: 20px;
+      text-transform: uppercase;
+      background-color: rgb(168, 197, 111);
+      font-weight: 200;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .botao button:hover{
+      background-color: yellow;
+      pointer-events: stroke;
+      transform: translateY(5px);
+  }
+  
+  
+  
+  #menu.animar{
+      
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+  }
+  

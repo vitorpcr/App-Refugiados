@@ -7,7 +7,7 @@
   body{
     overflow-x: hidden;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
+    background-color: rgb(148, 224, 253);
     width: 100vw;
     height: 100vh;
   }
@@ -16,15 +16,26 @@
     display: flex;
   }
 
+ 
   .box-canto{
     margin-left: 40px;
     margin-right: 40px;
-   
+    display: inline-flex;
     margin-top: 300px;
     width: 700px;
     height: 200vh;
-    background-color: rgb(172, 236, 236);
+    background-color: rgb(95, 185, 185);
     border-radius: 30px;
+  }
+
+  .divisao1, .divisao2,.divisao3, .divisao4,.divisao5{
+    width: 290px;
+    margin: 40px;
+    height: 100px;
+    text-align: center;
+ 
+    border-radius: 30px;
+    background-color: rgb(255, 245, 245);
   }
 
   .bloco-2{
@@ -33,8 +44,9 @@
   
   .imagem-logo{
     display: flex;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
     margin-left: 150px;
 
     
@@ -43,13 +55,8 @@
   .imagem-logo img{
     margin: auto;
     border-radius: 50%;
-    height: 150px;
-    min-width: 200px;
- 
-   
-    width: 200px;
-    
- 
+    height: 100px;
+    min-width: 150px;
   }
   
    
@@ -90,23 +97,15 @@
   
   }
   
-  .logo{
-    margin-right: 1.5rem;
-    height: 120px;
-    line-height: 120px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 4rem;
-    color: black;
-    letter-spacing: 1px;
-    transition: 0.3s;
-  }
+ 
   
   .links{
-    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 1;
     
-    justify-content: space-between;
-    
+   
   }
   
   .links ul{
@@ -159,25 +158,31 @@ header.scrolled{
   margin-top: 30px;
   width: 1550px;
   margin-left: 50px;
-  
+  height: 100px;
   border-radius: 50px;
   background-color:beige;
   box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
 }
+
+header.scrolled .links{
+  height: 100px;
+
+}
+
   
 header.scrolled .logo{
-  margin-top: 30px;
+  width: 50px;
   height: 80px;
   line-height: 80px;
 }
   
 .inicio{
     
-  
+
   margin: auto;
   border-radius: 40px;
   height: 100vh;
- background-color:antiquewhite
+  background-color:antiquewhite
    
       
 }
@@ -314,7 +319,7 @@ header.scrolled .logo{
     width: 75%;
     border-radius: 30px;
     height: 540px;
-    display: flex;
+   
   }
 
   .content2{
@@ -341,10 +346,32 @@ header.scrolled .logo{
     border-radius: 30px;
   }
 
+  .texto2 a{
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 30px;
+    padding: 13px;
+    background-color: rgb(70, 160, 110);
+  }
+
+  .botao-texto2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    
+  }
+
+  .box-texto{
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+  }
+
   .box{
     display: flex;
     height: 300px;
-    
+   
     margin: auto;
     width: 90%;
     height: 90%;
@@ -397,31 +424,30 @@ header.scrolled .logo{
   
 }
 
-@media (max-width: 1400px){
-    .body{
-      overflow-X: hidden;
-      background-color: red;
-    }
+@media (max-width: 1300px){
+   
     
     .imagem-logo img{
-      background-color: red;
+     
       margin-right: 450px;
     }
  
 
     .box-canto{
      
-      min-width: 350px;
-      background-color: black;
+      max-width: 350px;
+    
     }
 
     .bloco-2{
-      max-width: 1000px;
+      
+      max-width: 800px;
     }
 
     .inicio{
+      height: 700px;
+      max-width: 770px;
       
-      max-width: 900px;
     }
     .texto{
       
@@ -431,28 +457,41 @@ header.scrolled .logo{
      
     }
   
-    .container{
-      max-width: 600px;
-      
-    }
+  
 
     .header,.scrolled{
       margin: auto;
-      max-width: 1300px;
+      max-width: 1100px;
     }
 
     .content{
-      max-width: 700px;
+      top: 120%;
+      max-height: 400px;
+      max-width: 600px;
       left: 67%;
       margin: auto;
     }
 
     .content2{
       background-color: red;
-       max-width: 700px;
+      max-width: 700px;
+    }
+
+    .inicio2{
+      width: 690px;
+    }
+
+    .texto2{
+      padding: 30px;
+      margin: 20px;
+    }
+
+    .inicio2, .texto2{
+      margin-top: 100px;
     }
 
     
   
 }
+
 
