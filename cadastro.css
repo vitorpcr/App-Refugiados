@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.usuario{
+    
+    width: 1000px;
+}
   
 body{
  
@@ -30,13 +35,21 @@ body{
     
 }
 
+.fotos{
+    margin-right: 30px;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+}
+
 .menu{
    
+   display: flex;
     margin-top: 10px;
     background-color: wheat;
     width: 770px;
-      
-    height: 530px ;
+    margin: auto;
+    height: 630px ;
     padding: 50px;
     border-radius: 20px;
 }
@@ -59,20 +72,20 @@ body{
      
  }
   
-  .form input{
+.form input{
    
     display: flex;
     justify-content: center;
     border-radius: 7px;
     width: 300px;
     align-items: center;
-  }
+}
   
-  label{
+label{
       font-size: 15px;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-weight: 500;
-  }
+}
   
   .botao{
       margin-top: 20px;
@@ -104,5 +117,23 @@ body{
       
       animation-duration: 1s;
       animation-fill-mode: forwards;
+  }
+
+  .match{
+      padding-top: 20px;
+      margin: auto;
+      text-align: center;
+      
+      width: 300px;
+  }
+
+  a{
+      padding: 12px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      border: 2px solid black;
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      background-color: rgb(127, 211, 127);
   }
   

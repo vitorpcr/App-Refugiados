@@ -1,3 +1,4 @@
+/*
 const header = document.querySelector('header')
 
 function stickyNavBar(){
@@ -7,3 +8,18 @@ function stickyNavBar(){
 stickyNavBar()
 
 window.addEventListener('scroll', stickyNavBar)
+
+*/
+
+
+var enviarBotao = document.querySelector('.submit')
+
+function enviar(){
+  if(enviarBotao){
+      console.log("enviado com sucesso")
+  }else{
+      console.log("nao enviou")
+  }
+}
+
+enviar()

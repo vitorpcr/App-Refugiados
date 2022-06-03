@@ -35,8 +35,14 @@
     text-align: center;
  
     border-radius: 30px;
-    background-color: rgb(255, 245, 245);
+    background-color: rgb(253, 193, 193);
   }
+ #sites{
+   display: flex;
+   align-items: center;
+   font-size: 21px;
+   text-align: center;
+ }
 
   .bloco-2{
     margin-right: 30px;
@@ -141,7 +147,11 @@
 }
 
 .texto-sobre {
-  margin-top: 60px;
+  
+  width: 700px;
+  
+  padding-bottom: 20px;
+ padding-top: 20px;
    
 }
 
@@ -424,74 +434,189 @@ header.scrolled .logo{
   
 }
 
+
+
 @media (max-width: 1300px){
    
     
-    .imagem-logo img{
-     
-      margin-right: 450px;
-    }
- 
+  .imagem-logo img{
+   
+    margin-right: 450px;
+  }
 
-    .box-canto{
-     
-      max-width: 350px;
+
+  .box-canto{
+   
+    max-width: 350px;
+  
+  }
+
+  .bloco-2{
     
-    }
+    max-width: 800px;
+  }
 
-    .bloco-2{
-      
-      max-width: 800px;
-    }
-
-    .inicio{
-      height: 700px;
-      max-width: 770px;
-      
-    }
-    .texto{
-      
-      width: 700px;
-      height: 200px;
-      font-size: 15px;
-     
-    }
-  
-  
-
-    .header,.scrolled{
-      margin: auto;
-      max-width: 1100px;
-    }
-
-    .content{
-      top: 120%;
-      max-height: 400px;
-      max-width: 600px;
-      left: 67%;
-      margin: auto;
-    }
-
-    .content2{
-      background-color: red;
-      max-width: 700px;
-    }
-
-    .inicio2{
-      width: 690px;
-    }
-
-    .texto2{
-      padding: 30px;
-      margin: 20px;
-    }
-
-    .inicio2, .texto2{
-      margin-top: 100px;
-    }
-
+  .inicio{
+    height: 700px;
+    max-width: 770px;
     
+  }
+  .texto{
+    
+    width: 700px;
+    height: 200px;
+    font-size: 15px;
+   
+  }
+
+
+
+  .header,.scrolled{
+    margin: auto;
+    max-width: 1100px;
+  }
+
+  .content{
+    top: 120%;
+    max-height: 400px;
+    max-width: 600px;
+    left: 67%;
+    margin: auto;
+  }
+
+  .content2{
+    background-color: red;
+    max-width: 700px;
+  }
+
+  .inicio2{
+    width: 690px;
+  }
+
+  .texto2{
+    padding: 30px;
+    margin: 20px;
+  }
+
+  .inicio2, .texto2{
+    margin-top: 100px;
+  }
+
   
+
 }
 
+@media (max-width: 600px){
+
+  body{
+    background-color: red;
+    
+  }
+   
+    
+  .imagem-logo img{
+   
+    margin-right: 450px;
+  }
+
+
+  .box-canto, .divisoes{
+   
+    max-width: 150px;
+  
+  }
+
+  .logo{
+    
+    max-width: 200px;
+  }
+
+  header{
+    margin: auto;
+    background-color: blue;
+  }
+
+  .container{
+    margin-left: 30px;
+    margin: auto;
+    width: 300px;
+    background-color: blue;
+  }
+
+  .logo{
+    margin: auto;
+  }
+
+  .links{
+    display: flex;
+    background-color: green;
+    
+    
+  }
+
+  .divisao1, .divisao2,.divisao3, .divisao4,.divisao5{
+    max-width: 100px;
+    
+  }
+  #sites{
+    font-size: 13px;
+  }
+
+  .bloco-2{
+    background-color: yellow;
+    min-width: 300px;
+  }
+
+  .inicio{
+    height: 700px;
+    max-width: 400px;
+    
+  }
+
+ 
+  .texto{
+    
+    max-width: 300px;
+    height: 200px;
+    font-size: 15px;
+   
+  }
+
+
+
+  .header,.scrolled{
+    margin: auto;
+    max-width: 500px;
+  }
+
+  .content{
+    top: 120%;
+    max-height: 400px;
+    max-width: 300px;
+    left: 74%;
+    margin: auto;
+  }
+
+  .content2{
+    margin: auto;
+    background-color: red;
+    max-width: 200px;
+  }
+
+  .inicio2{
+    width: 690px;
+  }
+
+  .texto2{
+    padding: 30px;
+    margin: 20px;
+  }
+
+  .inicio2, .texto2{
+    margin-top: 100px;
+  }
+
+  
+
+}
 
