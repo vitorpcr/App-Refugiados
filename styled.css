@@ -462,8 +462,8 @@ header.scrolled .logo{
     
   }
   .texto{
-    
-    width: 700px;
+    padding: 20px;
+    width: 800px;
     height: 200px;
     font-size: 15px;
    
@@ -477,7 +477,7 @@ header.scrolled .logo{
   }
 
   .content{
-    top: 120%;
+    top: 140%;
     max-height: 400px;
     max-width: 600px;
     left: 67%;
@@ -508,11 +508,7 @@ header.scrolled .logo{
 
 @media (max-width: 600px){
 
-  body{
-    background-color: red;
-    
-  }
-   
+ 
     
   .imagem-logo img{
    
@@ -526,30 +522,32 @@ header.scrolled .logo{
   
   }
 
-  .logo{
+  .imagem-logo{
+    margin: auto;
     
-    max-width: 200px;
   }
 
-  header{
-    margin: auto;
-    background-color: blue;
-  }
+
+
+ 
 
   .container{
-    margin-left: 30px;
-    margin: auto;
-    width: 300px;
-    background-color: blue;
+    
+    
+    max-width: 800px;
+    
   }
 
   .logo{
     margin: auto;
   }
 
-  .links{
-    display: flex;
-    background-color: green;
+  .links a{
+    
+  
+   font-size: 14px;
+   max-width: 300px;
+    
     
     
   }
@@ -563,58 +561,75 @@ header.scrolled .logo{
   }
 
   .bloco-2{
-    background-color: yellow;
+   
     min-width: 300px;
   }
 
   .inicio{
     height: 700px;
-    max-width: 400px;
+    max-width: 300px;
     
   }
 
  
   .texto{
-    
-    max-width: 300px;
-    height: 200px;
-    font-size: 15px;
    
+    
+    width: 300px;
+    height: 200px;
+    
+   
+  }
+
+  .texto-sobre{
+    margin: auto;
+    max-width: 200px;
+    font-size: 9px;
   }
 
 
 
   .header,.scrolled{
-    margin: auto;
     max-width: 500px;
+    
   }
 
   .content{
-    top: 120%;
-    max-height: 400px;
-    max-width: 300px;
-    left: 74%;
-    margin: auto;
+    top: 100%;
+    max-height: 350px;
+    max-width: 250px;
+    left: 66%;
+    
   }
 
   .content2{
-    margin: auto;
-    background-color: red;
-    max-width: 200px;
+    
+    
+    max-width: 500px;
   }
 
   .inicio2{
-    width: 690px;
+    height: 800px;
+    width: 300px;
+  
   }
 
   .texto2{
+    max-width: 230px;
     padding: 30px;
     margin: 20px;
   }
 
-  .inicio2, .texto2{
-    margin-top: 100px;
+  .texto-sobre2{
+    font-size: 15px;
   }
+
+  .box{
+    flex-direction: column;
+  }
+
+
+  
 
   
 

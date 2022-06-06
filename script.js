@@ -1,4 +1,4 @@
-/*
+
 const header = document.querySelector('header')
 
 function stickyNavBar(){
@@ -9,8 +9,8 @@ stickyNavBar()
 
 window.addEventListener('scroll', stickyNavBar)
 
-*/
 
+/*
 
 var enviarBotao = document.querySelector('.submit')
 
@@ -23,3 +23,4 @@ function enviar(){
 }
 
 enviar()
+*/

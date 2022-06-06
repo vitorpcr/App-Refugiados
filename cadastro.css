@@ -30,27 +30,30 @@ body{
 }
 
 .usuario{
-    
+    padding-top: 20px;
     margin: auto;
     
 }
 
 .fotos{
-    margin-right: 30px;
+    
+    margin-right: 40px;
     width: 300px;
     height: 300px;
     background-color: yellow;
 }
 
+
+
 .menu{
    
-   display: flex;
-    margin-top: 10px;
+    display: flex;
+    margin-top: 80px;
     background-color: wheat;
-    width: 770px;
+    width: 700px;
     margin: auto;
-    height: 630px ;
-    padding: 50px;
+    height: 700px ;
+    padding: 10px;
     border-radius: 20px;
 }
   
@@ -68,7 +71,7 @@ body{
   
 .form{
     
-    margin: 17px;
+    margin: 20px;
      
  }
   
@@ -128,6 +131,7 @@ label{
   }
 
   a{
+      
       padding: 12px;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       border: 2px solid black;
