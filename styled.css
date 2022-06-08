@@ -363,6 +363,37 @@ header.scrolled .logo{
   text-align: center;
     
 }
+/*
+.bloco-3{
+  display: flex;
+  
+  justify-content: center;
+  border-radius: 40px;
+  margin-top: 50px;
+  margin: auto;
+  width: 80%;
+  height: 400px;
+  background-color: red;
+}
+
+.sugestoes{
+  background-color: blue;
+}
+
+.sugestoes h1{
+  text-align: center;
+  margin: 20px;
+}
+
+.sugestoes button{
+  padding: 20px;
+}
+
+.inicio2, .bloco-3{
+  margin: auto;
+  margin-top: 50px;
+}
+*/
 
 
 
