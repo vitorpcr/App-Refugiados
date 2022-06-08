@@ -245,12 +245,12 @@ header.scrolled .logo{
   
 .content{
   margin: auto;
-  height: 620px;
+  height: 520px;
   width: 835px;
   border-radius: 20px;
   overflow: hidden;
   position: absolute;
-  top: 90%;
+  top: 100%;
   left: 63%;
   transform: translate(-50%, -50%);
 }
@@ -477,10 +477,10 @@ header.scrolled .logo{
   }
 
   .content{
-    top: 140%;
+    top: 90%;
     max-height: 400px;
     max-width: 600px;
-    left: 67%;
+    left: 72%;
     margin: auto;
   }
 
