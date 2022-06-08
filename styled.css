@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
   }
+  .selector-for-some-widget {
+    box-sizing: content-box;
+  }
   
   body{
     overflow-x: hidden;
@@ -23,6 +26,7 @@
     display: inline-flex;
     margin-top: 300px;
     width: 700px;
+    max-width: 400px;
     height: 200vh;
     background-color: rgb(95, 185, 185);
     border-radius: 30px;
@@ -188,7 +192,8 @@ header.scrolled .logo{
   
 .inicio{
     
-
+  max-width: 1500px;
+  width: 1200px;
   margin: auto;
   border-radius: 40px;
   height: 100vh;
@@ -244,6 +249,7 @@ header.scrolled .logo{
 }
   
 .content{
+  
   margin: auto;
   height: 520px;
   width: 835px;
@@ -256,7 +262,7 @@ header.scrolled .logo{
 }
     
 .navigation{
-  position: absolute;
+  
   bottom: 20px;
   left: 50%;
   transform: translate(-50%);
@@ -325,7 +331,7 @@ header.scrolled .logo{
   .inicio2{
     background-color: rgb(100, 92, 92);
     margin: auto;
-    
+    max-width: 800px;
     width: 75%;
     border-radius: 30px;
     height: 540px;
@@ -333,10 +339,10 @@ header.scrolled .logo{
   }
 
   .content2{
-    background-color: red;
+    
     width: 50%;
     height: 300px;
-   
+    background-color: red;
     margin: auto;
     border-radius: 30px;
     
@@ -349,15 +355,16 @@ header.scrolled .logo{
   }
 
   .texto2{
-    width: 400px;
-    height: 300px;
+   
+    width: 300px;
+    height: 320px;
     margin: auto;
     background-color: rgb(197, 197, 218);
     border-radius: 30px;
   }
 
   .texto2 a{
-    margin-top: 30px;
+    margin-top: ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 30px;
     padding: 13px;
@@ -365,6 +372,7 @@ header.scrolled .logo{
   }
 
   .botao-texto2{
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -384,7 +392,7 @@ header.scrolled .logo{
    
     margin: auto;
     width: 90%;
-    height: 90%;
+    height: 100%;
   }
 
  
@@ -458,6 +466,7 @@ header.scrolled .logo{
 
   .inicio{
     height: 700px;
+    
     max-width: 770px;
     
   }
@@ -507,7 +516,7 @@ header.scrolled .logo{
 }
 
 @media (max-width: 600px){
-
+ 
  
     
   .imagem-logo img{
@@ -545,7 +554,7 @@ header.scrolled .logo{
   .links a{
     
   
-   font-size: 14px;
+   font-size: 11px;
    max-width: 300px;
     
     
@@ -595,9 +604,9 @@ header.scrolled .logo{
   }
 
   .content{
-    top: 100%;
+    
     max-height: 350px;
-    max-width: 250px;
+    width: 250px;
     left: 66%;
     
   }
